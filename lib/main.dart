@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> {
       ),
       themeMode: _themeMode,
       home: MyHomePage(
-        title: 'Material 3 Demo',
+        title: 'Affirm Button',
         useLightMode: useLightMode,
         handleBrightnessChange: (useLightMode) => setState(() {
           _themeMode = useLightMode ? ThemeMode.light : ThemeMode.dark;
